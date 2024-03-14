@@ -20,5 +20,6 @@ Route::get('/', function () {
     $titolo = 'Hello World';
     $descrizione = 'Prova di scrittura nella home, tramite le variabili ecc ecc ecc ecc';
 
+    // al compact passo tutte le variabili che voglio da stampare in pagina
     return view('home', compact('titolo', 'descrizione'));
 });
