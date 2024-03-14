@@ -1,6 +1,6 @@
 ## Consegna
 
-A questo punto, iniziamo a prendere confidenza con le rotte e le views:
+Iniziamo a prendere confidenza con le rotte e le views:
 
 1. Cancelliamo la view `welcome.blade.php` e creiamo una nostra homepage.
 2. Facciamo quindi sì che la rotta `/` visualizzi `home.blade.php`

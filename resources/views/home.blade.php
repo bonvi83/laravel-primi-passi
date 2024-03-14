@@ -6,6 +6,7 @@
     <title>Hello</title>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <h1>{{ $titolo }}</h1>
+    <p>{{ $descrizione }}</p>
 </body>
 </html>

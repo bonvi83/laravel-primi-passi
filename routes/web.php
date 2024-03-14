@@ -13,6 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+// questo file utilizza l'url per decidere quale pagina deve vedere l'utente
+
 Route::get('/', function () {
-    return view('home');
+    $titolo = 'Hello World';
+    $descrizione = 'Prova di scrittura nella home, tramite le variabili ecc ecc ecc ecc';
+
+    return view('home', compact('titolo', 'descrizione'));
 });
